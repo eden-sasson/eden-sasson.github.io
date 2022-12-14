@@ -29,7 +29,7 @@ function setTheme(mode){
 	}
 
 	if(mode == 'green'){
-		document.getElementById('theme-style').href = 'green.css'
+		document.getElementById('theme-style').href = 'dark.css'
 	}
 
 	if(mode == 'purple'){
