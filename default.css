@@ -173,7 +173,7 @@ h6 { font-size: 16px;}
 	display: block;
 	margin:0 auto;
 
-	height: 200px;
+	height: 320px;
 	width: 200px;
 	object-fit: cover;
 	border:2px solid var(--borderColor);
@@ -220,7 +220,7 @@ h6 { font-size: 16px;}
 }
 
 #purple-mode{
-	background-color: #7E4C74;
+	background-color: #23031d;
 }
 
 #settings-note{
