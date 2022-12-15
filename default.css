@@ -314,9 +314,7 @@ h6 { font-size: 16px;}
 #logoinvert{
 	max-width: 400px;
 	height: 100px;
-	display: grid;
-	text-align: right;
-	align-content: right;
+	align-content: center;
 }
 
 
