@@ -307,7 +307,8 @@ h6 { font-size: 16px;}
 	text-align: center;
 }
 #logoinvert{
-	width: 20%;
+	max-width: 30px;
+	height: 30px;
 }
 
 #social_img{
