@@ -216,10 +216,10 @@ h6 { font-size: 16px;}
 }
 
 #dark-mode{
-	background-color: #131731;
+	background-color: #000000FF;
 }
 
-#grey-mode{
+#purple-mode{
 	background-color: #23031d;
 }
 
