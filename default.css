@@ -78,13 +78,12 @@ h6 { font-size: 16px;}
 	margin: 0 auto;
 }
 
-
 .greeting-wrapper{
-	display: grid;
-	text-align: center;
+	grid-area:greeting-wrapper;
+	justify-content: space-between;
+	align-items: center;
 	align-content: center;
-	min-height: 10em;
-
+	text-align: center;
 }
 
 .intro-wrapper{
@@ -101,6 +100,7 @@ h6 { font-size: 16px;}
 	grid-template-columns: 1fr 1fr;
 	grid-template-areas: 
 		'nav-wrapper nav-wrapper'
+		'greeting-wrapper greeting-wrapper'
 		'left-column right-column'
 	;
 }
@@ -326,8 +326,13 @@ h6 { font-size: 16px;}
 	text-align: center;
 }
 #logo{
-	max-width: 400px;
-	height: 100px;
+	
+	max-width: 200px;
+	height: 50px;
+	position: absolute;
+	right: 130px;
+	bottom: 30px;
+	align-content: right;
 }
 
 #logoinvert{
@@ -435,6 +440,7 @@ h6 { font-size: 16px;}
 		grid-template-columns: 1fr;
 		grid-template-areas: 
 			'nav-wrapper'
+			'greeting-wrapper'
 			'left-column'
 			'right-column'
 		;
